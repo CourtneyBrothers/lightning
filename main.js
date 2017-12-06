@@ -64,11 +64,14 @@
 //exercise 3
 
 let array1 = [45, "I",true,null,"am",3.56,"a",undefined, {catchphrase: "Oh hai, Mark"}, "JS","rockstar"]
-
+function makeArray() {
 for (i = 0; i < array1.length; i++) {
-    array2 = [];
+    
     array2 = JSON.stringify(array1);
     console.log(array2);
    
+    }
+    
 }
+makeArray();
 
