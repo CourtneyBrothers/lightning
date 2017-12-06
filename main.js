@@ -48,15 +48,27 @@
 
 //exercise 2
 
-let obj = {
-    one: 1,
-    two: "two",
-    three: ()=>console.log("prop"),
-};
+// let obj = {
+//     one: 1,
+//     two: "two",
+//     three: ()=>console.log("prop"),
+// };
 
-let obj2 = {
+// let obj2 = {
 
-    four: 4,
-    five: 5,
-    six: obj,
-};
+//     four: 4,
+//     five: 5,
+//     six: obj,
+// };
+
+//exercise 3
+
+let array1 = [45, "I",true,null,"am",3.56,"a",undefined, {catchphrase: "Oh hai, Mark"}, "JS","rockstar"]
+
+for (i = 0; i < array1.length; i++) {
+    array2 = [];
+    array2 = JSON.stringify(array1);
+    console.log(array2);
+   
+}
+
