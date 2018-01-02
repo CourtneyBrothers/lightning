@@ -95,3 +95,18 @@
 
 // let ages = [12,23,89,16,34,19,2,7,45,50,26,102];
 // let fave_demo = ages.filter((age) => age < 50 && age > 17);
+
+let hitchhikers_guide = {
+    characters:["Zaphod", "Arthur","Ford","Trillian"],
+    catchphrase:"Don't Panic",
+    random_facts:{
+        copies_sold:14000000,
+        formats:["radio","TV","film","graphic novel"],
+        ultimate_answer:{
+            meaning_of_life:42
+        }
+    }
+};
+hitchhikers_guide.random_facts.ultimate_answer.meaning_of_life;
+let meaning = "meaning_of_life";
+hitchhikers_guide.random_facts.ultimate_answer[meaning];
