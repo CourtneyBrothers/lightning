@@ -115,6 +115,7 @@ let yoda_quote = ["the","greatest","teacher","failure","is"];
 
 yoda_quote[0].toUpperCase(0);
 yoda_quote.splice(3, 0, ",");
+// yoda_quote.splice(0,0,"Yoda says,");
 console.log(yoda_quote);
 let joined = yoda_quote.join(" ");
 console.log(joined);
@@ -122,3 +123,4 @@ let newjoined = joined.charAt(0).toUpperCase()+joined.slice(1);
 console.log(newjoined);
 let output = document.getElementById("output");
 output.innerHTML =`"Yoda says, ${newjoined}"`;
+
