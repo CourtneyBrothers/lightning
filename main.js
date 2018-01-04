@@ -111,16 +111,26 @@
 // let meaning = "meaning_of_life";
 // hitchhikers_guide.random_facts.ultimate_answer[meaning];
 
-let yoda_quote = ["the","greatest","teacher","failure","is"];
+// let yoda_quote = ["the","greatest","teacher","failure","is"];
 
-yoda_quote[0].toUpperCase(0);
-yoda_quote.splice(3, 0, ",");
-// yoda_quote.splice(0,0,"Yoda says,");
-console.log(yoda_quote);
-let joined = yoda_quote.join(" ");
-console.log(joined);
-let newjoined = joined.charAt(0).toUpperCase()+joined.slice(1);
-console.log(newjoined);
-let output = document.getElementById("output");
-output.innerHTML =`"Yoda says, ${newjoined}"`;
+// yoda_quote[0].toUpperCase(0);
+// yoda_quote.splice(3, 0, ",");
+// // yoda_quote.splice(0,0,"Yoda says,");
+// console.log(yoda_quote);
+// let joined = yoda_quote.join(" ");
+// console.log(joined);
+// let newjoined = joined.charAt(0).toUpperCase()+joined.slice(1);
+// console.log(newjoined);
+// let output = document.getElementById("output");
+// output.innerHTML =`"Yoda says, ${newjoined}"`;
+
+let nums = [1, 2, 3, 4, "5", 6, "7"];
+//xpected result: [3, 5, 7, 9, 11, 13]
+let resultArray = [];
+for (let i=0; i <nums.length-1; i++){
+     resultArray.push(+nums[i]+ +nums[i +1]);   
+};
+
+
+
 
